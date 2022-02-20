@@ -5,6 +5,7 @@
 }
 
 body {
+    background-color: #161617;
     background-image: url("../images/BG.png");
     background-position: top left;
     background-repeat: repeat;
@@ -25,7 +26,6 @@ body {
     width: 100%;
     height: 100%;
     padding: 10px 15px;
-    /* background-color: red; */
     box-shadow: inset 0 0 30px #3ca7c469;
 }
 
@@ -44,7 +44,7 @@ body {
 }
 
 #name {
-    font-family: 'akashi';
+    font-family: 'akashiregular';
     font-size: 4rem;
     color: #ffdd86cc;
     text-shadow:
@@ -129,7 +129,7 @@ body {
 #site-nav a {
     padding: 8px 20px;
     font-size: 1.5rem;
-    font-family: 'akashi';
+    font-family: 'akashiregular';
     text-decoration: none;
     opacity: .8;
     color: rgb(145, 83, 216);
