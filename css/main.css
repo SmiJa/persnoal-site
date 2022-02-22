@@ -1,3 +1,4 @@
+/* ==[ Global Settings ]== */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -9,7 +10,9 @@ body {
     background-image: url("../images/BG.png");
     background-position: top left;
     background-repeat: repeat;
-    background-size: 64px 64px;
+    background-size: 48px 48px;
+    color: #ffdd86ad;
+    font-family: 'akashiregular';
 }
 
 #main-wrap {
@@ -17,7 +20,7 @@ body {
     width: 95%;
     max-width: 1140px;
     margin: 20px auto;
-    height: 800px;
+    /* height: 800px; */
     box-shadow: 0 0 30px #3ca7c469;
     border-radius: 2px;
 }
@@ -29,8 +32,9 @@ body {
     box-shadow: inset 0 0 30px #3ca7c469;
 }
 
+/* ==[ Header Settings ]== */
 #header {
-    height: 72px;
+    /* height: 72px; */
     display: flex;
     justify-content: space-between;
 }
@@ -39,7 +43,7 @@ body {
     #header {
         flex-direction: column;
         align-items: center;
-        height: 150px;
+        /* height: 150px; */
     }
 }
 
@@ -48,7 +52,7 @@ body {
     font-size: 4rem;
     color: #ffdd86cc;
     text-shadow:
-        0 0 3px #ffdd86cc,
+        0 0 1px #ffdd86cc,
         0 0 7px #ffdd86ad;
     width: 50%;
 }
@@ -157,4 +161,34 @@ body {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.616) ;
     box-shadow: inset 0 0 3px 4px rgba(0, 0, 0, 0.76);
     /* box-shadow: 0 0 15px rgba(128, 60, 206, 0.877); */
+}
+
+section {
+    color: #181818cc;
+    text-shadow: 0 0 2px #181818ad;
+    display: none;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ffdd86cc;
+    box-shadow: 0 0 8px #ffdd86c5;
+    /* width: 90%; */
+}
+
+section h2 {
+    /* border-bottom: 2px solid #ffdd86cc; */
+    padding-left: 5px;
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+}
+
+section p {
+    padding: 10px;
+    font-size: 1.25rem;
+}
+
+section:target {
+    display: block;
 }
