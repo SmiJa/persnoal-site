@@ -192,3 +192,9 @@ section p {
 section:target {
     display: block;
 }
+
+::selection {
+    background-color: #161617;
+    color: #ffdd86cc;
+    text-shadow: 0 0 2px #ffdd86c5;
+}
